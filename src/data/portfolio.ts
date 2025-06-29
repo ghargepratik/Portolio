@@ -1,0 +1,163 @@
+export const personalInfo = {
+  name: import.meta.env.VITE_PERSONAL_NAME || "Pratik Gharge",
+  title: "Full Stack Developer",
+  description: "Passionate MERN Stack Developer with 3.5+ years of experience building scalable web applications using modern technologies.",
+  email: import.meta.env.VITE_PERSONAL_EMAIL || "pratik.gharge31@gmail.com",
+  phone: import.meta.env.VITE_PERSONAL_PHONE || "+91 9876543210",
+  location: import.meta.env.VITE_PERSONAL_LOCATION || "Mumbai, India",
+  education: {
+    degree: "B.Sc. Computer Science",
+    university: "RTMNU University",
+    duration: "2018 - 2021"
+  },
+  experience: "3.5+ years in MERN Stack with AWS, Docker, and modern web technologies",
+  social: {
+    github: import.meta.env.VITE_GITHUB_URL || "https://github.com/ghargepratik",
+    linkedin: import.meta.env.VITE_LINKEDIN_URL || "https://www.linkedin.com/in/pratik31",
+    email: import.meta.env.VITE_PERSONAL_EMAIL || "pratik.gharge31@gmail.com"
+  }
+};
+
+export const experiences = [
+  {
+    id: 1,
+    title: "Senior Full Stack Developer",
+    company: "Tech Solutions Ltd.",
+    duration: "2022 - Present",
+    description: "Leading development of scalable web applications using React.js, Node.js, and AWS services. Mentoring junior developers and implementing CI/CD pipelines.",
+    skills: ["React.js", "Node.js", "AWS", "Docker", "MongoDB"]
+  },
+  {
+    id: 2,
+    title: "Full Stack Developer",
+    company: "Digital Innovations Co.",
+    duration: "2021 - 2022",
+    description: "Developed and maintained multiple client projects using MERN stack. Optimized application performance and implemented responsive designs.",
+    skills: ["MongoDB", "Express.js", "React.js", "Node.js", "JavaScript"]
+  },
+  {
+    id: 3,
+    title: "Frontend Developer",
+    company: "StartUp Hub",
+    duration: "2020 - 2021",
+    description: "Built interactive user interfaces and collaborated with design teams to create seamless user experiences.",
+    skills: ["HTML5", "CSS3", "JavaScript", "React.js", "Tailwind CSS"]
+  }
+];
+
+export const projects = [
+  {
+    id: 1,
+    title: "E-Commerce Platform",
+    description: "A full-featured e-commerce platform with payment integration, inventory management, and admin dashboard.",
+    longDescription: "Built a comprehensive e-commerce solution with user authentication, product catalog, shopping cart, payment processing using Stripe, order management, and administrative features. The platform includes real-time inventory updates, email notifications, and responsive design for all devices.",
+    image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Stripe API", "JWT"],
+    liveUrl: "https://ecommerce-demo.com",
+    githubUrl: "https://github.com/ghargepratik/ecommerce-platform",
+    featured: true,
+    role: "Full Stack Developer",
+    responsibilities: [
+      "Designed and developed the complete frontend using React.js with responsive design",
+      "Built RESTful APIs using Node.js and Express.js for product management and user authentication",
+      "Implemented secure payment processing with Stripe API integration",
+      "Developed admin dashboard for inventory management and order tracking",
+      "Created user authentication system with JWT tokens and role-based access control",
+      "Integrated MongoDB for efficient data storage and retrieval",
+      "Implemented real-time inventory updates and email notification system",
+      "Optimized application performance and implemented caching strategies"
+    ]
+  },
+  {
+    id: 2,
+    title: "Task Management App",
+    description: "A collaborative task management application with real-time updates and team collaboration features.",
+    longDescription: "Developed a modern task management application with features like drag-and-drop functionality, real-time collaboration using Socket.io, file attachments, due date reminders, and project analytics. The app supports team management and role-based permissions.",
+    image: "https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["React.js", "Socket.io", "Node.js", "PostgreSQL", "Redis", "AWS S3"],
+    liveUrl: "https://taskmanager-demo.com",
+    githubUrl: "https://github.com/ghargepratik/task-manager",
+    featured: true,
+    role: "Lead Full Stack Developer",
+    responsibilities: [
+      "Architected and developed the entire application using React.js and Node.js",
+      "Implemented real-time collaboration features using Socket.io for live updates",
+      "Built drag-and-drop functionality for intuitive task management",
+      "Designed PostgreSQL database schema for efficient data organization",
+      "Integrated Redis for session management and caching",
+      "Developed file upload system using AWS S3 for task attachments",
+      "Created team management system with role-based permissions",
+      "Implemented project analytics dashboard with data visualizations",
+      "Set up automated email reminders for due dates and notifications"
+    ]
+  },
+  {
+    id: 3,
+    title: "Weather Dashboard",
+    description: "A beautiful weather application with location-based forecasts and interactive maps.",
+    longDescription: "Created a responsive weather dashboard that provides current weather conditions, 7-day forecasts, weather maps, and location-based recommendations. Features include geolocation support, favorite locations, weather alerts, and beautiful data visualizations.",
+    image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["React.js", "Weather API", "Chart.js", "Tailwind CSS", "Geolocation API"],
+    liveUrl: "https://weather-dashboard-demo.com",
+    githubUrl: "https://github.com/ghargepratik/weather-dashboard",
+    featured: false,
+    role: "Frontend Developer",
+    responsibilities: [
+      "Developed responsive UI using React.js and Tailwind CSS",
+      "Integrated multiple weather APIs for comprehensive weather data",
+      "Implemented geolocation functionality for automatic location detection",
+      "Created interactive weather maps and data visualizations using Chart.js",
+      "Built favorite locations feature with local storage",
+      "Developed weather alert system with push notifications",
+      "Optimized application for mobile devices and various screen sizes",
+      "Implemented caching mechanism for improved performance"
+    ]
+  },
+  {
+    id: 4,
+    title: "Social Media Analytics",
+    description: "Analytics dashboard for social media performance tracking with beautiful data visualizations.",
+    longDescription: "Built an comprehensive analytics platform for social media managers to track engagement, follower growth, content performance, and competitor analysis. Features include custom report generation, automated insights, and integration with major social platforms.",
+    image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["React.js", "D3.js", "Node.js", "MongoDB", "Social Media APIs"],
+    liveUrl: "https://analytics-demo.com",
+    githubUrl: "https://github.com/ghargepratik/social-analytics",
+    featured: false,
+    role: "Full Stack Developer",
+    responsibilities: [
+      "Built comprehensive analytics dashboard using React.js and D3.js",
+      "Integrated multiple social media APIs (Facebook, Twitter, Instagram, LinkedIn)",
+      "Developed data processing pipeline using Node.js for social media metrics",
+      "Created custom report generation system with PDF export functionality",
+      "Implemented automated insights and trend analysis algorithms",
+      "Built competitor analysis features with comparative metrics",
+      "Designed MongoDB schema for efficient storage of analytics data",
+      "Developed scheduling system for automated data collection and reporting"
+    ]
+  }
+];
+
+export const skills = [
+  { name: "React.js", level: 95 },
+  { name: "Node.js", level: 90 },
+  { name: "MongoDB", level: 85 },
+  { name: "Express.js", level: 90 },
+  { name: "Next.js", level: 80 },
+  { name: "TypeScript", level: 85 },
+  { name: "JavaScript", level: 95 },
+  { name: "HTML5", level: 95 },
+  { name: "CSS3", level: 90 },
+  { name: "Tailwind CSS", level: 85 },
+  { name: "PostgreSQL", level: 80 },
+  { name: "MySQL", level: 75 },
+  { name: "AWS", level: 80 },
+  { name: "Docker", level: 75 },
+  { name: "Git", level: 90 },
+  { name: "REST APIs", level: 90 },
+  { name: "GraphQL", level: 70 },
+  { name: "Redux", level: 80 },
+  { name: "Socket.io", level: 75 },
+  { name: "Jest", level: 70 },
+  { name: "Webpack", level: 65 },
+  { name: "Vite", level: 80 }
+];
