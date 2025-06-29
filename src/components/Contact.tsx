@@ -153,21 +153,6 @@ const Contact: React.FC = () => {
                 reach out through the contact form or connect with me on social media.
               </p>
             </div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4, duration: 0.6 }}
-              viewport={{ once: true }}
-              className="p-6 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 rounded-xl border border-blue-100 dark:border-gray-700"
-            >
-              <h4 className="font-semibold text-gray-900 dark:text-white mb-2">
-                Quick Response
-              </h4>
-              <p className="text-gray-600 dark:text-gray-400 text-sm">
-                I typically respond to messages within 24 hours. Looking forward to connecting with you!
-              </p>
-            </motion.div>
           </motion.div>
 
           {/* Contact Form */}
@@ -307,6 +292,22 @@ const Contact: React.FC = () => {
                 </p>
               </div>
             </form>
+
+            {/* Quick Response Section - Moved Below Form */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.5, duration: 0.6 }}
+              viewport={{ once: true }}
+              className="mt-8 p-6 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 rounded-xl border border-blue-100 dark:border-gray-700"
+            >
+              <h4 className="font-semibold text-gray-900 dark:text-white mb-2">
+                Quick Response
+              </h4>
+              <p className="text-gray-600 dark:text-gray-400 text-sm">
+                I typically respond to messages within 24 hours. Looking forward to connecting with you!
+              </p>
+            </motion.div>
           </motion.div>
         </div>
       </div>
