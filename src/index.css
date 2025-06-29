@@ -39,7 +39,7 @@
     overflow: hidden;
   }
 
-  /* Hide scrollbar for mobile carousel */
+  /* Enhanced scrollbar hiding for all browsers */
   .scrollbar-hide {
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
@@ -47,6 +47,25 @@
   
   .scrollbar-hide::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
+  }
+
+  /* Smooth scrolling for carousel */
+  .carousel-smooth {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Enhanced scroll snap */
+  .scroll-snap-x {
+    scroll-snap-type: x mandatory;
+  }
+
+  .scroll-snap-start {
+    scroll-snap-align: start;
+  }
+
+  .scroll-snap-center {
+    scroll-snap-align: center;
   }
 }
 
@@ -65,9 +84,10 @@
   }
 }
 
-/* Custom scrollbar */
+/* Custom scrollbar for desktop */
 ::-webkit-scrollbar {
   width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -87,4 +107,17 @@
   html {
     color-scheme: dark;
   }
+}
+
+/* Enhanced focus styles for accessibility */
+button:focus-visible,
+a:focus-visible {
+  @apply outline-2 outline-offset-2 outline-blue-500;
+}
+
+/* Smooth transitions for theme switching */
+* {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
