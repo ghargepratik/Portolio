@@ -1,16 +1,18 @@
 export const personalInfo = {
   name: import.meta.env.VITE_PERSONAL_NAME || "Pratik Gharge",
-  title: "Full Stack Developer",
-  description: "Passionate MERN Stack Developer with 3.5+ years of experience building scalable web applications using modern technologies.",
+  title: "MERN Stack | Full Stack Developer",
+  description:
+    "Results-driven MERN Stack Developer with 3.5+ years of experience building robust, scalable, and high-performance web applications. Proficient in both frontend and backend development, with a strong focus on clean architecture, responsive design, and cloud integration.",
   email: import.meta.env.VITE_PERSONAL_EMAIL || "pratik.gharge31@gmail.com",
   phone: import.meta.env.VITE_PERSONAL_PHONE || "+91 9876543210",
   location: import.meta.env.VITE_PERSONAL_LOCATION || "Mumbai, India",
   education: {
-    degree: "B.Sc. Computer Science",
+    degree: "B.Sc. in Computer Science",
     university: "RTMNU University",
     duration: "2018 - 2021"
   },
-  experience: "3.5+ years in MERN Stack with AWS, Docker, and modern web technologies",
+  experience:
+    "3.5+ years of hands-on experience in full-stack development using the MERN stack, with proven expertise in building scalable applications, integrating REST APIs, and deploying cloud-based solutions using AWS and Docker.",
   social: {
     github: import.meta.env.VITE_GITHUB_URL || "https://github.com/ghargepratik",
     linkedin: import.meta.env.VITE_LINKEDIN_URL || "https://www.linkedin.com/in/pratik31",
