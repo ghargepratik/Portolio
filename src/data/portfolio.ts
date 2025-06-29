@@ -38,8 +38,7 @@ export const experiences = [
       "Performance Optimization",
       "Database Optimization",
       "AWS",
-      "Docker",
-      "Framer Motion"
+      "Docker"
     ]
   },
   {
