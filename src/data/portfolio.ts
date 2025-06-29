@@ -4,8 +4,7 @@ export const personalInfo = {
   description:
     "Results-driven MERN Stack Developer with 3.5+ years of experience building robust, scalable, and high-performance web applications. Proficient in both frontend and backend development, with a strong focus on clean architecture, responsive design, and cloud integration.",
   email: import.meta.env.VITE_PERSONAL_EMAIL || "pratik.gharge31@gmail.com",
-  phone: import.meta.env.VITE_PERSONAL_PHONE || "+91 9876543210",
-  location: import.meta.env.VITE_PERSONAL_LOCATION || "Mumbai, India",
+  location: import.meta.env.VITE_PERSONAL_LOCATION || "India",
   education: {
     degree: "B.Sc. in Computer Science",
     university: "RTMNU University",

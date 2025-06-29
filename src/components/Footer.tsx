@@ -102,7 +102,6 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold text-white">Get In Touch</h4>
             <div className="space-y-2">
               <p className="text-gray-400">{personalInfo.email}</p>
-              <p className="text-gray-400">{personalInfo.phone}</p>
               <p className="text-gray-400">{personalInfo.location}</p>
             </div>
             <motion.button
