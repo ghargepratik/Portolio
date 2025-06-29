@@ -255,6 +255,7 @@ export const skills = [
   { name: "Node.js", level: 90 },
   { name: "MongoDB", level: 85 },
   { name: "Express.js", level: 90 },
+  { name: "NestJS", level: 75 },
   { name: "Next.js", level: 80 },
   { name: "TypeScript", level: 85 },
   { name: "JavaScript", level: 95 },
