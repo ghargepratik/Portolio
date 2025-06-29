@@ -31,14 +31,16 @@ const AboutMe: React.FC = () => {
           >
             <div className="prose prose-lg dark:prose-invert">
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                I'm a passionate full-stack developer with a strong foundation in modern web technologies. 
-                My journey in software development began during my computer science studies, and I've been 
-                continuously learning and growing ever since.
+                I'm a dedicated and passionate full-stack developer with a solid foundation in computer science and modern web technologies.
+                My journey into software development began during my academic years, and since then, I've remained committed to continuous learning and improvement.
               </p>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                I specialize in creating efficient, scalable, and user-friendly applications using the MERN stack, 
-                cloud technologies, and modern development practices. I'm always excited to take on new challenges 
-                and contribute to innovative projects.
+                I specialize in building scalable, high-performance web applications using the MERN stack, along with cloud solutions like AWS and containerization tools like Docker.
+                I thrive in both frontend and backend development, delivering clean architecture, responsive interfaces, and reliable APIs.
+              </p>
+              <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                I'm highly motivated to explore new technologies and stay up to date with the latest trends in the tech ecosystem.
+                My eagerness to learn and adapt helps me bring fresh ideas and best practices to every project I work on.
               </p>
             </div>
 
