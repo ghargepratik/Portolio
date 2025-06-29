@@ -113,22 +113,6 @@ const AboutMe: React.FC = () => {
                 </div>
               </div>
             </div>
-
-            <motion.div
-              whileHover={{ scale: 1.02 }}
-              className="mt-8 p-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl text-white"
-            >
-              <h4 className="text-xl font-bold mb-4">Let's Work Together</h4>
-              <p className="mb-6">I'm always interested in new opportunities and exciting projects.</p>
-              <motion.button
-                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-100 transition-colors"
-              >
-                Contact Me
-              </motion.button>
-            </motion.div>
           </motion.div>
         </div>
       </div>

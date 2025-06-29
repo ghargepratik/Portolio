@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Send, CheckCircle, AlertCircle, Loader, Settings } from 'lucide-react';
+import { Send, CheckCircle, AlertCircle, Loader } from 'lucide-react';
 import { personalInfo } from '../data/portfolio';
 import { sendEmail, isEmailJSConfigured, getConfigStatus } from '../services/emailService';
 
@@ -18,7 +18,6 @@ const Contact: React.FC = () => {
   });
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
   const [errorMessage, setErrorMessage] = useState('');
-  const [showConfigStatus, setShowConfigStatus] = useState(false);
   const formRef = useRef<HTMLFormElement>(null);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -116,8 +115,6 @@ const Contact: React.FC = () => {
     }
   };
 
-  const configStatus = getConfigStatus();
-
   return (
     <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -171,30 +168,6 @@ const Contact: React.FC = () => {
                 I typically respond to messages within 24 hours. Looking forward to connecting with you!
               </p>
             </motion.div>
-
-            {/* Configuration Status (Development Only) */}
-            {process.env.NODE_ENV === 'development' && (
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.5, duration: 0.6 }}
-                viewport={{ once: true }}
-                className="p-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700"
-              >
-                <button
-                  onClick={() => setShowConfigStatus(!showConfigStatus)}
-                  className="flex items-center space-x-2 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200"
-                >
-                  <Settings size={16} />
-                  <span>EmailJS Configuration Status</span>
-                </button>
-                {showConfigStatus && (
-                  <div className="mt-3 text-xs text-gray-600 dark:text-gray-400">
-                    <p>{configStatus.message}</p>
-                  </div>
-                )}
-              </motion.div>
-            )}
           </motion.div>
 
           {/* Contact Form */}
