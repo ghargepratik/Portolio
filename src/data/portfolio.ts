@@ -188,6 +188,65 @@ export const projects = [
       "Designed MongoDB schema for efficient storage of analytics data",
       "Developed scheduling system for automated data collection and reporting"
     ]
+  },
+  {
+    id: 5,
+    title: "Employee Handbook",
+    description: "A PDF-generating tool with a dynamic form managed via Contentful CMS.",
+    longDescription: "Developed a web-based employee handbook generator with dynamic PDF creation. Admins can customize content through Contentful CMS, and users interact with a form-driven UI. Ensured efficient state management and seamless backend integration.",
+    image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "REST API", "Context API", "Contentful CMS"],
+    liveUrl: "https://smallbusiness.wsps.ca/safety-orientation-handbook/",
+    githubUrl: "",
+    featured: false,
+    role: "Full Stack Developer",
+    responsibilities: [
+      "Developed and optimized dynamic PDF generation system using React.js and Node.js",
+      "Integrated Contentful CMS for customizable form and content management",
+      "Designed and implemented RESTful APIs for data handling and form submission",
+      "Managed application state using Context API for smooth user interactions",
+      "Ensured responsive design and cross-browser compatibility",
+      "Collaborated with stakeholders to gather requirements and plan CMS structure"
+    ]
+  },
+  {
+    id: 6,
+    title: "Job Portal - Techinfini",
+    description: "A recruitment management portal for Techinfini with complete hiring workflow.",
+    longDescription: "Built a job portal application that allows users to apply for jobs, while administrators can manage applications, schedule interviews, and generate offer and joining letters. Focused on backend logic, admin panel, and end-to-end application workflow.",
+    image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "REST API", "Context API"],
+    liveUrl: "",
+    githubUrl: "",
+    featured: false,
+    role: "Full Stack Developer",
+    responsibilities: [
+      "Developed frontend interface using React.js for job browsing and application submission",
+      "Implemented backend REST APIs using Node.js and Express.js for job and applicant management",
+      "Integrated Context API for efficient state management across user and admin workflows",
+      "Created modules for interview scheduling, offer letter generation, and applicant tracking",
+      "Collaborated with internal team to define features and improve system performance"
+    ]
+  },
+  {
+    id: 7,
+    title: "Project Management Portal (ClickUp Clone)",
+    description: "A task and project tracking tool with SOD/EOD updates and team collaboration features.",
+    longDescription: "Developed a project management portal inspired by ClickUp, enabling task assignments, SOD/EOD tracking, and progress monitoring. Managers can oversee employee updates and project flows through a dashboard-style interface with Redux-managed state.",
+    image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "REST API", "Redux Toolkit"],
+    liveUrl: "",
+    githubUrl: "",
+    featured: false,
+    role: "Full Stack Developer",
+    responsibilities: [
+      "Designed and developed task and project tracking interfaces using React.js",
+      "Implemented backend RESTful APIs using Node.js and Express.js",
+      "Used Redux Toolkit for managing complex state and asynchronous operations",
+      "Enabled SOD/EOD submission, task assignment, and team updates features",
+      "Created modular architecture for scalability and performance",
+      "Defined database schema and routing structure based on requirements analysis"
+    ]
   }
 ];
 
