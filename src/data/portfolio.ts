@@ -21,27 +21,35 @@ export const personalInfo = {
 export const experiences = [
   {
     id: 1,
-    title: "Senior Full Stack Developer",
-    company: "Tech Solutions Ltd.",
-    duration: "2022 - Present",
-    description: "Leading development of scalable web applications using React.js, Node.js, and AWS services. Mentoring junior developers and implementing CI/CD pipelines.",
-    skills: ["React.js", "Node.js", "AWS", "Docker", "MongoDB"]
+    title: "Solution Engineer (Developer)",
+    company: "Deqode, Indore",
+    duration: "July 2023 - Present",
+    description: "Leading development of scalable applications with significant performance improvements. Specialized in Node.js server-side development and implementing comprehensive testing strategies.",
+    skills: ["React.js", "Node.js", "Express.js", "Jest", "Enzyme", "Performance Optimization", "Database Optimization"]
   },
   {
     id: 2,
-    title: "Full Stack Developer",
-    company: "Digital Innovations Co.",
-    duration: "2021 - 2022",
-    description: "Developed and maintained multiple client projects using MERN stack. Optimized application performance and implemented responsive designs.",
-    skills: ["MongoDB", "Express.js", "React.js", "Node.js", "JavaScript"]
+    title: "Associate Software Engineer (Developer)",
+    company: "Techinfini Software Solution Pvt Ltd, Indore",
+    duration: "April 2022 - July 2023",
+    description: "Designed responsive user interfaces and optimized API performance for high-traffic applications. Enhanced development workflow by integrating TypeScript for better code reliability.",
+    skills: ["React.js", "Node.js", "Express.js", "TypeScript", "Redis", "API Optimization", "Responsive Design"]
   },
   {
     id: 3,
-    title: "Frontend Developer",
-    company: "StartUp Hub",
-    duration: "2020 - 2021",
-    description: "Built interactive user interfaces and collaborated with design teams to create seamless user experiences.",
-    skills: ["HTML5", "CSS3", "JavaScript", "React.js", "Tailwind CSS"]
+    title: "Junior Software Engineer (Developer)",
+    company: "Pegasus Technologies & Software Pvt Ltd, Nagpur",
+    duration: "September 2021 - March 2022",
+    description: "Collaborated with senior developers to build cross-browser compatible applications. Maintained and debugged Node.js applications while ensuring optimal performance and user experience.",
+    skills: ["React.js", "Node.js", "Express.js", "HTML5", "CSS3", "JavaScript", "Cross-browser Compatibility"]
+  },
+  {
+    id: 4,
+    title: "Junior Software Engineer (Internship)",
+    company: "Pegasus Technologies & Software Pvt Ltd, Nagpur",
+    duration: "February 2021 - August 2021",
+    description: "Gained hands-on experience in React and Node.js development, applying theoretical knowledge to real-world projects and learning industry best practices.",
+    skills: ["React.js", "Node.js", "JavaScript", "Web Development Fundamentals"]
   }
 ];
 
