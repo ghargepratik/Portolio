@@ -161,3 +161,32 @@ export const skills = [
   { name: "Webpack", level: 65 },
   { name: "Vite", level: 80 }
 ];
+
+// Blog data - Add your blogs here when you start writing
+export const blogs = [
+  // Example blog structure - remove these examples and add your real blogs
+  // {
+  //   id: 1,
+  //   title: "Building Scalable React Applications with TypeScript",
+  //   excerpt: "Learn how to structure and build maintainable React applications using TypeScript, covering best practices, patterns, and real-world examples.",
+  //   image: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=800",
+  //   url: "https://dev.to/ghargepratik/building-scalable-react-applications",
+  //   platform: "Dev.to",
+  //   publishedAt: "Dec 15, 2024",
+  //   readTime: "8 min read",
+  //   tags: ["React", "TypeScript", "JavaScript", "Web Development"],
+  //   featured: true
+  // },
+  // {
+  //   id: 2,
+  //   title: "Optimizing Node.js Performance: Tips and Tricks",
+  //   excerpt: "Discover practical techniques to improve your Node.js application performance, from memory management to database optimization.",
+  //   image: "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=800",
+  //   url: "https://medium.com/@ghargepratik/nodejs-performance-optimization",
+  //   platform: "Medium",
+  //   publishedAt: "Dec 10, 2024",
+  //   readTime: "6 min read",
+  //   tags: ["Node.js", "Performance", "Backend", "Optimization"],
+  //   featured: false
+  // }
+];
