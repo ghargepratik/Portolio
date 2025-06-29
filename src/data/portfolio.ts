@@ -24,32 +24,76 @@ export const experiences = [
     title: "Solution Engineer (Developer)",
     company: "Deqode, Indore",
     duration: "July 2023 - Present",
-    description: "Leading development of scalable applications with significant performance improvements. Specialized in Node.js server-side development and implementing comprehensive testing strategies.",
-    skills: ["React.js", "Node.js", "Express.js", "Jest", "Enzyme", "Performance Optimization", "Database Optimization"]
+    description:
+      "Collaborate directly with clients to gather requirements, propose technical solutions, and translate them into scalable and maintainable code using the MERN stack. Work across both service-based and product-based projects. Focus on performance optimization, scalable architecture, and clean code practices. Drive end-to-end development with an emphasis on client satisfaction and high code quality.",
+    skills: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "MERN Stack",
+      "Client Communication",
+      "Solution Design",
+      "Performance Optimization",
+      "Database Optimization",
+      "AWS",
+      "Docker",
+      "Framer Motion"
+    ]
   },
   {
     id: 2,
     title: "Associate Software Engineer (Developer)",
     company: "Techinfini Software Solution Pvt Ltd, Indore",
     duration: "April 2022 - July 2023",
-    description: "Designed responsive user interfaces and optimized API performance for high-traffic applications. Enhanced development workflow by integrating TypeScript for better code reliability.",
-    skills: ["React.js", "Node.js", "Express.js", "TypeScript", "Redis", "API Optimization", "Responsive Design"]
+    description:
+      "Worked as a full-stack MERN developer on both client-based and in-house product projects, including a Job Portal and a Project Management System. Focused on creating responsive user interfaces, building scalable APIs, and improving overall application performance. Introduced TypeScript for type safety and improved development efficiency.",
+    skills: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "TypeScript",
+      "Redis",
+      "API Optimization",
+      "Responsive Design",
+      "Project Architecture",
+      "Product Development"
+    ]
   },
   {
     id: 3,
     title: "Junior Software Engineer (Developer)",
     company: "Pegasus Technologies & Software Pvt Ltd, Nagpur",
     duration: "September 2021 - March 2022",
-    description: "Collaborated with senior developers to build cross-browser compatible applications. Maintained and debugged Node.js applications while ensuring optimal performance and user experience.",
-    skills: ["React.js", "Node.js", "Express.js", "HTML5", "CSS3", "JavaScript", "Cross-browser Compatibility"]
+    description:
+      "Contributed to the development of cross-browser web applications and assisted in building backend services using Node.js. Participated in code reviews, debugging, and ensuring consistent user experiences across different devices and browsers.",
+    skills: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Cross-browser Compatibility",
+      "Debugging"
+    ]
   },
   {
     id: 4,
     title: "Junior Software Engineer (Internship)",
     company: "Pegasus Technologies & Software Pvt Ltd, Nagpur",
     duration: "February 2021 - August 2021",
-    description: "Gained hands-on experience in React and Node.js development, applying theoretical knowledge to real-world projects and learning industry best practices.",
-    skills: ["React.js", "Node.js", "JavaScript", "Web Development Fundamentals"]
+    description:
+      "Gained hands-on experience in React.js and Node.js by contributing to real-world web development projects. Learned industry best practices, collaborated with senior developers, and applied theoretical concepts to practical implementations.",
+    skills: [
+      "React.js",
+      "Node.js",
+      "JavaScript",
+      "Web Development",
+      "Code Collaboration",
+      "Version Control (Git)"
+    ]
   }
 ];
 
