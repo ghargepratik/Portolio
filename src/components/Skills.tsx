@@ -137,7 +137,7 @@ const Skills: React.FC = () => {
         </motion.div>
 
         {/* Skills Categories Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 mb-16">
           {skillCategories.map((category, categoryIndex) => (
             <motion.div
               key={category.title}
@@ -145,21 +145,21 @@ const Skills: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: categoryIndex * 0.1, duration: 0.8 }}
               viewport={{ once: true }}
-              className={`bg-gradient-to-br ${category.bgColor} rounded-2xl p-8 border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300`}
+              className={`bg-gradient-to-br ${category.bgColor} rounded-2xl p-6 sm:p-8 border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 max-w-full overflow-hidden`}
             >
-              <div className="flex items-center space-x-4 mb-8">
+              <div className="flex items-center space-x-3 sm:space-x-4 mb-6 sm:mb-8">
                 <motion.div 
                   whileHover={{ scale: 1.1, rotate: 5 }}
-                  className={`p-4 rounded-xl bg-gradient-to-r ${category.color} shadow-lg`}
+                  className={`p-3 sm:p-4 rounded-xl bg-gradient-to-r ${category.color} shadow-lg flex-shrink-0`}
                 >
-                  <category.icon className="text-white" size={28} />
+                  <category.icon className="text-white" size={24} />
                 </motion.div>
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white break-words">
                   {category.title}
                 </h3>
               </div>
 
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
                 {category.skills.length > 0 ? (
                   category.skills.map((skill, skillIndex) => {
                     const SkillIcon = getSkillIcon(skill.name);
@@ -180,16 +180,16 @@ const Skills: React.FC = () => {
                           y: -5,
                           transition: { duration: 0.2 }
                         }}
-                        className="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 dark:border-gray-700 group cursor-pointer"
+                        className="bg-white dark:bg-gray-800 rounded-xl p-3 sm:p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 dark:border-gray-700 group cursor-pointer relative overflow-hidden"
                       >
-                        <div className="flex flex-col items-center space-y-3">
+                        <div className="flex flex-col items-center space-y-2 sm:space-y-3">
                           <motion.div
                             whileHover={{ rotate: 10 }}
-                            className={`p-3 rounded-lg bg-gradient-to-r ${category.color} group-hover:shadow-lg transition-all duration-300`}
+                            className={`p-2 sm:p-3 rounded-lg bg-gradient-to-r ${category.color} group-hover:shadow-lg transition-all duration-300 flex-shrink-0`}
                           >
-                            <SkillIcon className="text-white" size={24} />
+                            <SkillIcon className="text-white" size={20} />
                           </motion.div>
-                          <span className="font-semibold text-gray-900 dark:text-white text-sm text-center leading-tight">
+                          <span className="font-semibold text-gray-900 dark:text-white text-xs sm:text-sm text-center leading-tight break-words w-full">
                             {skill.name}
                           </span>
                         </div>

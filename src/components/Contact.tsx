@@ -141,13 +141,13 @@ const Contact: React.FC = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="space-y-8"
+            className="space-y-8 max-w-full"
           >
             <div>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
                 Let's Connect
               </h3>
-              <p className="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
+              <p className="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed break-words">
                 I'm always open to discussing new opportunities, interesting projects, 
                 or just having a chat about technology and development. Feel free to 
                 reach out through the contact form or connect with me on social media.
@@ -161,11 +161,12 @@ const Contact: React.FC = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
+            className="max-w-full"
           >
             <form 
               ref={formRef}
               onSubmit={handleSubmit} 
-              className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-8 border border-gray-100 dark:border-gray-700"
+              className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-6 sm:p-8 border border-gray-100 dark:border-gray-700 max-w-full overflow-hidden"
             >
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
                 Send a Message
