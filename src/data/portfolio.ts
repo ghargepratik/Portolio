@@ -1,8 +1,8 @@
 export const personalInfo = {
   name: import.meta.env.VITE_PERSONAL_NAME || "Pratik Gharge",
-  title: "MERN Stack | Full Stack Developer",
+  title: "MERN Stack Developer | Full Stack Web Developer | React.js & Node.js Expert",
   description:
-    "Results-driven MERN Stack Developer with 3.5+ years of experience building robust, scalable, and high-performance web applications. Proficient in both frontend and backend development, with a strong focus on clean architecture, responsive design, and cloud integration.",
+    "Results-driven MERN Stack Developer with 4+ years of experience building robust, scalable, and high-performance web applications. Expert in React.js, Node.js, MongoDB, Express.js, JavaScript, TypeScript, and AWS. Specializing in full-stack development with a focus on clean architecture, responsive design, and cloud integration.",
   email: import.meta.env.VITE_PERSONAL_EMAIL || "pratik.gharge31@gmail.com",
   location: import.meta.env.VITE_PERSONAL_LOCATION || "India",
   education: {

@@ -54,12 +54,12 @@ const Projects: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4" id="full-stack-projects">
             Featured Projects
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
           <p className="mt-6 text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Here are some of the projects I've worked on that showcase my skills and experience
+            Full-stack MERN projects showcasing React.js, Node.js, and modern web development skills
           </p>
         </motion.div>
 

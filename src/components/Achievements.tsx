@@ -92,12 +92,12 @@ const Achievements: React.FC = () => {
               <Trophy className="text-white" size={32} />
             </motion.div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">
-              Key Achievements
+              Professional Achievements
             </h2>
           </div>
           <div className="w-20 h-1 bg-gradient-to-r from-yellow-500 to-orange-500 mx-auto rounded-full"></div>
           <p className="mt-6 text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Measurable impact and technical excellence delivered across projects and platforms
+            Measurable impact and technical excellence in MERN Stack development projects
           </p>
         </motion.div>
 

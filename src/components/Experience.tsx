@@ -14,12 +14,12 @@ const Experience: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4" id="pratik-gharge-experience">
             Experience
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
           <p className="mt-6 text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            My professional journey and the experiences that have shaped my career
+            4+ years of professional MERN Stack development experience and career journey
           </p>
         </motion.div>
 

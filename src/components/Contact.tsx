@@ -125,12 +125,12 @@ const Contact: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4" id="contact-pratik-gharge">
             Get In Touch
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
           <p className="mt-6 text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Have a project in mind or want to discuss opportunities? I'd love to hear from you!
+            Ready to hire a MERN Stack developer? Let's discuss your full-stack development needs!
           </p>
         </motion.div>
 

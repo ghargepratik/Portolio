@@ -127,12 +127,12 @@ const Skills: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4" id="mern-stack-skills">
             Technical Skills
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
           <p className="mt-6 text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Technologies and tools I use to build modern, scalable applications
+            MERN Stack technologies and tools I use to build modern, scalable web applications
           </p>
         </motion.div>
 
@@ -248,7 +248,7 @@ const Skills: React.FC = () => {
               viewport={{ once: true }}
               className="text-xl mb-8 text-blue-100"
             >
-              Building full-stack applications with MongoDB, Express.js, React.js, and Node.js
+              Expert in building full-stack web applications with MongoDB, Express.js, React.js, and Node.js
             </motion.p>
 
             {/* MERN Stack Icons */}

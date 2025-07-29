@@ -14,7 +14,7 @@ const AboutMe: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4" id="about-pratik-gharge">
             About Me
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>

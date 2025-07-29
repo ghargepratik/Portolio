@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
               transition={{ delay: 0.2, duration: 0.6 }}
               className="space-y-4"
             >
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold break-words">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold break-words" itemProp="name">
                 <span className="block text-gray-900 dark:text-white">Hi, I'm</span>
                 <motion.span
                   initial={{ opacity: 0, scale: 0.5 }}
@@ -48,7 +48,8 @@ const Hero: React.FC = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.7, duration: 0.6 }}
-                className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300 break-words"
+                className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300 break-words" 
+                itemProp="jobTitle"
               >
                 {personalInfo.title}
               </motion.h2>
@@ -59,6 +60,7 @@ const Hero: React.FC = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.9, duration: 0.6 }}
               className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-full lg:max-w-lg leading-relaxed"
+              itemProp="description"
             >
               {personalInfo.description}
             </motion.p>
